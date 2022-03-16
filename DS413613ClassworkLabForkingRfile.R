@@ -2,8 +2,8 @@ library(tidyverse)
 library(ggplot2)
 library(dplyr)
 mpg
-# My name is Dennis P.
-#The data source is the mpg data table
+# My name is Ian Gardner
+
 # This is my coding that generates Boxplots for transmission types
 ggplot(data = mpg) +
   geom_boxplot(mapping = aes(x = drv, y = displ, fill = drv)) +
@@ -11,6 +11,8 @@ ggplot(data = mpg) +
   xlab("transmission types") +
   ylab("displacement")+
   coord_flip()
+
+#My favorite color is Green
   
 
 
